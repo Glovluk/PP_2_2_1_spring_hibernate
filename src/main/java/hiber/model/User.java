@@ -21,7 +21,6 @@ public class User {
     private String email;
 
     @OneToOne
-//    @JoinColumn(name = "car_id")
     @MapsId
     private Car userCar;
 
